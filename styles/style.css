@@ -118,13 +118,18 @@ body {
 
 }
 
+.image-content img {
+    padding: 20px;
+}
+
 .common_heading {
     color: #131318;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .text-content {
+    padding: 20px;
     max-width: 577px;
     /* border: 2px solid red; */
 }
@@ -144,26 +149,186 @@ body {
 }
 
 .image-content img {
-   
+
     /* border: 2px solid violet; */
     width: 540px;
     height: 550px;
     border-radius: 16px;
 }
-.picture-container{
-    
+
+.picture-container {
+
     border: 2px solid tomato;
     margin: 0 auto;
     width: 1170px;
     height: 1200px;
-    
-    
+
+
 }
-.picture_description{
+
+.picture_description {
     gap: 40px;
+
+}
+
+.picture_section_01 {
+
+    margin: 0 auto;
+
+}
+
+.hotel_chose {
+    width: 1170px;
+    height: 280px;
+    margin: 0 auto;
+    border: 2px solid violet;
+}
+
+/* package part */
+.package_bundle {
+    margin-top: 50px;
+    border: 2px solid green;
+    margin: 0 auto;
+    width: 1170px;
+    height: 750px;
+}
+
+.package_bundle .card_menu {
+    display: flex;
+    gap: 20px;
+}
+
+.package_bundle .card_menu .first_card {
+    width: 500px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    /* display: grid; */
+    /* flex-direction: row; */
+}
+
+.package_bundle .card_menu .second_card {
+    width: 500px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.package_bundle .third_card {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+
+.deals_discount {
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 1170px;
+    height: 280px;
+}
+
+.resort_image {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 1170px;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.resort_image img {
+    margin-bottom: 20px;
+}
+
+.package_button {
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 1170px;
+    height: 200px;
+    text-align: center;
+}
+.form-content{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+.Blog_Container .form-content form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
     
 }
-.picture_section_01{
+
+.Blog_Container .form-content form input[type=text],
+input[type=password] {
+    width: 93%;
+    height: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+
+}
+
+.Blog_Container .form-content form button[type=submit] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 8px;
+
+
+
+}
+
+
+/* footer part */
+.footer_part{
+    width: 1440px;
+    height: 502px;    
+    background: rgba(19, 19, 24, 0.05);
     margin: 0 auto;
     
+    
+    
+}
+.footer_part .foot-container{
+    padding:  100px 100px 10px 100px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+
+}
+.footer_part .social_links{
+    margin:0 auto;
+    display:  flex;
+    /* text-align: center; */
+    justify-content: center;
+    
+}
+.footer_part .social_links a{
+    margin-right: 25px;
+    text-decoration: none;
+}
+.footer_part .copy_right {
+    margin:0 auto;
+    display:  flex;
+    /* text-align: center; */
+    justify-content: center;
 }
